@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>IndonesiaTravel - Menu</title>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">IndonesiaTravel</div>
+    <nav>
+      <a href="../index.html">HOME</a>
+      <a class="active" href="../menu/index.html">MENU</a>
+      <a href="../favorit/index.html">FAVORIT</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="header-section">
+      <h2>Wisata Indonesia</h2>
+      <div class="search-container">
+        <i class="fa fa-search"></i>
+        <input id="searchInput" type="text" placeholder="search" />
+      </div>
+    </div>
+
+    <section id="cards" class="cards-grid">
+      
+    </section>
+  </main>
+
+  
+  <div id="modal" class="modal">
+    <div class="modal-card">
+      <button class="modal-close">&times;</button>
+      <img id="modal-img" src="" alt="">
+      <h3 id="modal-title"></h3>
+      <p id="modal-desc"></p>
+      <div class="modal-actions">
+        <button id="modal-fav" class="btn small">Tambah Favorit</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="../script.js"></script>
+</body>
+</html>
